@@ -18,7 +18,6 @@ function MovieItem(props) {
       </div>
       <div className={classes.content}>
         <h3>{props.movie.MovieName}</h3>
-        <span>{props.movie.Rating}</span>
       </div>
     </li>
     </Card>
